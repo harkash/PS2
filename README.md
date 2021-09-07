@@ -300,7 +300,7 @@ resulting image and the frequency domain image in the report for each.\
 Outputs: ps2-4-a-1.jpg, ps2-4-a-2.jpg, ps2-4-a-3.jpg \[15 points, 5
 each\]
 
-# Filtering with the Fourier Transform \[25 points\] 
+# Filtering with the Fourier Transform \[35 points\] 
 
 Now that we have seen how the Fourier Transform can be used for
 compression, we will now use the Fourier Transform as a low-pass filter.
@@ -329,3 +329,5 @@ each\]
 
 5-b What are the differences between compression and filtering? How does
 this change the resulting image? \[10 points\]
+
+5-c Given an image corrupted with salt and pepper pepper noise, what filtering method can effectively reduce/remove this noise? Also explain your choice of filtering method. Show some examples. \[10 points\]
