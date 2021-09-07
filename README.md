@@ -70,9 +70,9 @@ Two assignments have been created on Gradescope: one for the report -
 **PS2_report**, and the other for the code - **PS2_code** where you need
 to submit ps2.py and experiment.py.
 
-# Hough Transforms \[10 points\]
+# 1. Hough Transforms \[10 points\]
 
-## Traffic Light
+## 1.a Traffic Light
 
 First off, you are given a generic traffic light to detect from a scene.
 For the sake of the problem, assume that traffic lights are shown as
@@ -116,7 +116,7 @@ Complete traffic_light_detection(img_in, radii_range)\
 Place the coordinates using c2.putText before saving the output images.
 Input: scene_tl_1.png. Output: ps2-1-a-1.jpg \[5\]\
 
-## Construction sign one per scene \[5 points\]
+## 1.b Construction sign one per scene \[5 points\]
 
 Now that you have detected a basic traffic light, see if you can detect
 road signs. Below is the construction sign that you would see in the
@@ -145,7 +145,7 @@ more details.
 Place the coordinates using c2.putText before saving the output images.
 Input: scene_constr_1.png. Output: ps2-1-b-1.jpg \[5\]\
 
-# Template Matching \[30 points\] 
+# 2 Template Matching \[30 points\] 
 
 Template matching is a common image processing technique that is used to
 find small parts of an image that match with the template image. In this
@@ -195,7 +195,7 @@ Input: waldo1.png. Output: ps2-2-c-1.jpg \[5\]
 Waldo? Can template matching be generalised to all images? Explain
 Why/Why not. Which method consistently performed the best, why? \[15\]\
 
-# Fourier Transform
+# 3 Fourier Transform
 
 In this section we will use the Fourier Transform to compress an image.
 The Fourier transform is an integral signal processing tool used in a
@@ -266,7 +266,7 @@ one-dimensional transform on each row and column.
 
 **Report:** No writeup for this section
 
-# Using the Fourier Transform for Compression \[15 points\]
+# 4 Using the Fourier Transform for Compression \[15 points\]
 
 Compression is a useful tool in all types of signal processing but
 especially useful for images. Lets say you take a picture of your dog
@@ -300,7 +300,7 @@ resulting image and the frequency domain image in the report for each.\
 Outputs: ps2-4-a-1.jpg, ps2-4-a-2.jpg, ps2-4-a-3.jpg \[15 points, 5
 each\]
 
-# Filtering with the Fourier Transform \[35 points\] 
+# 5 Filtering with the Fourier Transform \[35 points\] 
 
 Now that we have seen how the Fourier Transform can be used for
 compression, we will now use the Fourier Transform as a low-pass filter.
