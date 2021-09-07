@@ -1,5 +1,7 @@
 # Problem Set 2: Template Matching and FFT
 
+## NOTE: Please refer to the PDF file for instructions. GitHub markdown does not render formulae and algorithms correctly. The information is identical between the markdown and PDF, but the PDF renders more cleanly.
+
 # Assignment Description
 
 ## Description 
